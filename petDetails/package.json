@@ -1,0 +1,21 @@
+{
+  "name": "petsDetails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "RA328869@wipro.com",
+  "license": "ISC",
+  "description": "Nodejs Coding Test",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "method-override": "~2.3.5",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  }
+}

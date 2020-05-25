@@ -1,0 +1,16 @@
+<h1>Pets List </h1>
+
+<table>
+    <tr>
+        <th> Name</th>
+        <th>Colour</th>
+        <th>Age</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td> {{this.colour}}</td>
+        <td> {{this.age}}</td>
+    </tr>
+    {{/each }}
+</table>
